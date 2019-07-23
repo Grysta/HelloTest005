@@ -1,0 +1,12 @@
+package com.atguigu.maven;	
+		import org.junit.Test;
+		import static junit.framework.Assert.*;
+		public class HelloTest {
+			@Test
+			public void testHello(){
+				Hello hello = new Hello();
+				String results = hello.sayHello("litingwei");
+				System.out.println(results);
+				assertEquals("Hello litingwei!",results);	
+			}
+		}
