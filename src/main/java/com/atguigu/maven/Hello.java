@@ -8,7 +8,7 @@ package com.atguigu.maven;
 				return "Hello "+name+"!";
 			}
 			
-			public String sayHello2(String name){
+			public String sayHello3(String name){
 				return "Hello "+name+"!";
 			}
 		}
